@@ -1,159 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalho Escolar: Voleibol</title>
-    <style>
-        :root {
-            --cor-primaria: #1a446c;
-            --cor-secundaria: #f2a900;
-            --cor-fundo: #f8f9fa;
-            --cor-texto: #2d3748;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--cor-fundo);
-            color: var(--cor-texto);
-            line-height: 1.6;
-        }
-        .identificacao {
-            background-color: #e9ecef;
-            padding: 10px 20px;
-            font-size: 0.9rem;
-            border-bottom: 1px solid #dee2e6;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-        header {
-            background-color: var(--cor-primaria);
-            color: white;
-            text-align: center;
-            padding: 2.5rem 1rem;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.2rem;
-        }
-        header p {
-            margin: 5px 0 0 0;
-            color: var(--cor-secundaria);
-            font-weight: bold;
-        }
-        main {
-            max-width: 850px;
-            margin: 30px auto;
-            padding: 25px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-        }
-        h2 {
-            color: var(--cor-primaria);
-            border-left: 5px solid var(--cor-secundaria);
-            padding-left: 10px;
-            margin-top: 30px;
-        }
-        ul, ol {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        /* Estilo para as Imagens */
-        .img-trabalho {
-            width: 100%;
-            max-width: 600px;
-            height: auto;
-            display: block;
-            margin: 15px auto;
-            border-radius: 6px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-        }
-        .legenda-img {
-            text-align: center;
-            font-size: 0.85rem;
-            color: #6c757d;
-            margin-top: -10px;
-            margin-bottom: 20px;
-            font-style: italic;
-        }
-        footer {
-            text-align: center;
-            padding: 1.5rem;
-            background-color: #343a40;
-            color: white;
-            margin-top: 40px;
-            font-size: 0.9rem;
-        }
-    </style>
+    <title>Vôlei</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
+    <h1>Fundamentos e Regras do Vôlei</h1>
 
-    <div class="identificacao">
-        <span><strong>Aluno(a):</strong> Seu Nome Aqui</span>
-        <span><strong>Turma/Série:</strong> Sua Turma</span>
-        <span><strong>Disciplina:</strong> Educação Física</span>
-    </div>
+    <h2>O que é o voleibol</h2>
+    <p>
+        O voleibol é um esporte coletivo jogado em uma quadra dividida por uma rede, onde duas equipes de seis jogadores tentam fazer a bola tocar o chão do lado adversário. O esporte desenvolve a coordenação motora, agilidade e o espírito de equipe, sendo amplamente praticado em escolas e clubes pelo mundo todo.
+    </p>
+    <a href="https://wikipedia.org" target="_blank">Fonte</a>
 
-    <header>
-        <h1>Trabalho de Educação Física: Voleibol</h1>
-        <p>Origem, Evolução e Regras do Esporte</p>
-    </header>
+    <img src="https://unsplash.com" alt="Imagem de uma bola de vôlei oficial tocando a rede em uma quadra de areia">
 
-    <main>
-        <section>
-            <h2>1. História e Origem</h2>
-            <p>O voleibol foi inventado em <strong>9 de fevereiro de 1895</strong> por <strong>William G. Morgan</strong> nos Estados Unidos. Morgan era diretor de educação física e buscava criar um esporte de equipes que gerasse menos contato físico que o basquete. Inicialmente, o esporte foi batizado de <em>"Mintonette"</em>.</p>
-            
-            <!-- Imagem do Criador -->
-            <img class="img-trabalho" src="https://unsplash.com" alt="Partida de Vôlei">
-            <div class="legenda-img">Partida de voleibol destacando a dinâmica do esporte coletivo.</div>
-        </section>
+    <h2>Principais Fundamentos</h2>
+    <ul>
+        <li>Saque</li>
+        <li> <a href="https://wikipedia.org">Manchete e Toque</a> </li>
+        <li>Ataque e Bloqueio</li>
+    </ul>
 
-        <section>
-            <h2>2. Fundamentos Técnicos</h2>
-            <p>Para praticar o voleibol, os jogadores utilizam movimentos específicos:</p>
-            <ul>
-                <li><strong>Saque:</strong> Golpe que coloca a bola em jogo, executado atrás da linha de fundo.</li>
-                <li><strong>Manchete:</strong> Técnica feita com os antebraços unidos para receber saques e defender ataques.</li>
-                <li><strong>Toque/Levantamento:</strong> Golpe feito com as pontas dos dedos para direcionar a bola ao atacante.</li>
-                <li><strong>Ataque (Cortada):</strong> Batida forte na bola para baixo, buscando o chão da quadra adversária.</li>
-                <li><strong>Bloqueio:</strong> Salto junto à rede para interceptar o ataque do time rival.</li>
-            </ul>
+    <button id='botao_tema'> Modo Escuro </button>
 
-            <!-- Imagem dos Fundamentos (Manchete/Defesa) -->
-            <img class="img-trabalho" src="https://unsplash.com" alt="Jogador de vôlei defendendo a bola">
-            <div class="legenda-img">Exemplo de ação defensiva e posicionamento em quadra.</div>
-        </section>
-
-        <section>
-            <h2>3. Regras Principais</h2>
-            <p>O funcionamento de uma partida oficial segue as seguintes normas:</p>
-            <ol>
-                <li><strong>Jogadores:</strong> Cada equipe entra em quadra com 6 jogadores titulares.</li>
-                <li><strong>Pontuação:</strong> Os pontos acontecem quando a bola toca o chão adversário ou sai das linhas limites.</li>
-                <li><strong>Toques na Bola:</strong> O time pode dar no máximo 3 toques antes de mandar a bola para o outro lado.</li>
-                <li><strong>Duração:</strong> Não há tempo fixo. Ganha a equipe que vencer 3 sets primeiro.</li>
-            </ol>
-
-            <!-- Imagem da Rede e Bola -->
-            <img class="img-trabalho" src="https://unsplash.com" alt="Bola de vôlei na rede">
-            <div class="legenda-img">A bola e a rede: elementos centrais da dinâmica do jogo.</div>
-        </section>
-
-        <section>
-            <h2>4. Conclusão</h2>
-            <p>O voleibol se transformou em um dos esportes mais populares do mundo. Ele promove o trabalho em equipe, a coordenação motora e o reflexo rápido, sendo fundamental nas aulas de Educação Física.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>Trabalho Escolar Pesquisa &copy; 2026</p>
-    </footer>
-
+    <script src="./script.js"></script>
 </body>
 </html>
+inicio
